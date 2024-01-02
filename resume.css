@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.left {
+    background-color: rgb(60, 80, 119);
+    width: 45%;
+    height: 100vh;
+    padding: 12px;
+}
+
+.right {
+    width: 55%;
+    height: 100vh;
+    padding: 12px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 7px;
+}
+
+.cinfo ul li img {
+    height: 3.5vh;
+    width: 3.5vh;
+
+}
+
+.cinfo ul li {
+    list-style: none;
+}
+
+.cinfo ul li:hover {
+    cursor: pointer;
+}
+
+.name,
+.afname {
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+p {
+    color: white;
+    margin-bottom: 5px;
+}
+
+pre,
+p {
+    font-family: serif;
+    text-transform: capitalize;
+}
+
+ul li {
+    margin-left: 15px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.edu,
+.edudata {
+    text-transform: capitalize;
+}
+
+pre {
+    color: white;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 35px;
+    padding-left: 5px;
+    background-color: rgb(26, 67, 114);
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.range1,
+.range2 {
+    display: block;
+}
+
+h4 {
+    line-height: 40px;
+    color: rgb(28, 28, 141)
+}
+
+.data {
+    color: rgb(19, 6, 79);
+    /* text-align: justify; 
+    text-justify: inter-word; */
+
+}
+
+.right>label {
+    color: rgb(82, 15, 144);
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+label {
+    color: white;
+
+}
+
+.right>h4 {
+    background-color: rgb(243, 248, 250);
+    padding-left: 5px;
+}
+
+.range1 {
+    height: 10px;
+    width: 210px;
+    border-radius: 10px;
+    background-color: skyblue;
+    border-right: 10px solid rgb(197, 198, 199);
+}
+
+.range2 {
+    height: 10px;
+    width: 190px;
+    border-radius: 10px;
+    background-color: skyblue;
+    border-right: 30px solid rgb(197, 198, 199);
+
+}
+
+.range3 {
+    height: 10px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: rgb(28, 135, 222);
+    border-right: 40px solid rgb(197, 198, 199);
+
+}
+
+.range4 {
+    height: 10px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(28, 135, 222);
+    ;
+    border-right: 20px solid rgb(197, 198, 199);
+
+}
